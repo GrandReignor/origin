@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo Bootstrap</title>
+	<link rel='stylesheet' href='css/bootstrap.css'>
+	<style>
+	img{
+		width:100%;
+		height:100%;
+	}
+	.box{
+		height:500px;
+		border:3px solid black;
+		margin-bottom:25px;
+	}
+	.tinybox{
+		margin-top:25px;
+		height:75px;
+		border:1px solid black;
+	}
+	.bigbox{
+		margin-top:50px;
+		height:150px;
+		border:1px solid black;
+	}
+
+	</style>
+</head>
+<body>
+<div class='container-fluid'>
+	<div class='row'>
+		<div class='row'>
+			<div class=' col-lg-6 col-lg-offset-3 col-xs-12 box tinybox' style='background-color:red'>
+				<h1>Journey to the next life</h1>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-lg-3 col-lg-offset-1 box col-xs-12' style='background-color:green'>
+				<div class='tinybox col-lg-9 col-lg-offset-2'>
+				</div>
+				<div class='tinybox col-lg-9 col-lg-offset-2'>
+				</div>
+				<div class='tinybox col-lg-9 col-lg-offset-2'>
+				</div>
+				<div class='tinybox col-lg-9 col-lg-offset-2'>
+				</div>
+			</div>
+			<div class='col-lg-6 col-lg-offset-1 box' style='background-color:blue'>
+				<div class='bigbox col-lg-3 col-lg-offset-1'>
+					<img src='img/kitty.jpg'>
+				</div>
+				<div class='bigbox col-lg-3 col-lg-offset-1'>
+					<img src='img/kitty.jpg'>
+				</div>
+				<div class='bigbox col-lg-3 col-lg-offset-1'>
+					<img src='img/kitty.jpg'>
+				</div>
+				<div class='bigbox col-lg-3 col-lg-offset-1'>
+					<img src='img/kitty.jpg'>
+				</div>
+				<div class='bigbox col-lg-3 col-lg-offset-1 hidden-xs'>
+					<img src='img/kitty.jpg'>
+				</div>
+				<div class='bigbox col-lg-3 col-lg-offset-1 hidden-xs'>
+					<img src='img/kitty.jpg'>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-lg-12 hidden-xs box tinybox' style='background-color:yellow'>
+				<h1>Footer</h1>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
